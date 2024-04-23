@@ -38,7 +38,7 @@
 
 <body style="background-image: url('/img/bg.jpg');">
 
-<form method="post" action="<?=base_url('login')?>">
+<form method="post" action="<?=base_url('login/Save')?>">
 <div class="container mt-5">
   <br>
   <br>
@@ -65,7 +65,8 @@
             <input type="checkbox" class="form-check-input" id="exampleCheck1">
             <label class="form-check-label" for="exampleCheck1">Check me out</label>
           </div>
-          <button type="submit" class="btn btn-primary">Login</button>
+          <button type="submit" class="btn btn-danger">Login</button>
+          <p>Dont Have an Account Yet? <a href="<?=base_url('anggota/form')?>">Sign Up</a></p>
           </div>
         </div>
         <div class="col-md-4">
